@@ -1,0 +1,240 @@
+/*feuille de style qui permet de styliser les elements html*/
+/*on ecrira
+selcteur{
+    instruction
+    proprieter : valeur;
+}
+*/
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: azure
+}
+
+
+.logo {
+  display: flex;
+  width: 12%;
+  height: 7%;
+  justify-content: center;
+  margin-left: 45%;
+
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.airpod {
+  width: 80%;
+  height: 50%;
+  font-size: 20%;
+  margin-left: 11%;
+
+}
+
+.puceH2 {
+  width: 82%;
+  margin-left: 22%;
+
+}
+
+.puceH2 {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.puceH2:hover {
+  transform: scale(1.2);
+}
+
+dd {
+  color: rgb(255, 255, 255);
+  margin-left: 7%
+}
+dt{
+  color: rgb(255, 255, 255);
+  margin-left: 7%
+}
+
+span {
+  color: rgb(255, 255, 255);
+  margin:auto
+}
+
+.centre {
+  width: 65%;
+  height: 80%;
+  margin-left: 33%;
+}
+
+.centre {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.centre:hover {
+  transform: scale(1.2);
+}
+
+.centre1 {
+  margin-left: 33%;
+}
+
+.droite {
+  width: 50%;
+  height: 77%;
+  display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.droite {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.droite:hover {
+  transform: scale(1.2);
+}
+
+.ensemble {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+}
+
+.face {
+  width: 25%;
+  height: 55%;
+}
+
+.face {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.face:hover {
+  transform: scale(1.2);
+}
+
+.cote {
+  width: 12%;
+  height: 42%;
+}
+
+.cote {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.cote:hover {
+  transform: scale(1.2);
+}
+
+.dessous {
+  width: 25%;
+  height: 55%;
+}
+
+.dessous {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.dessous:hover {
+  transform: scale(1.2);
+}
+
+.pub {
+  margin-top: 10%;
+  margin: 0 auto;
+  border-radius: 16px;
+display: flex;
+align-items: center;
+}
+
+.pub {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.pub:hover {
+  transform: scale(1.2);
+}
+
+.rpod {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.bas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.bas div{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.coqueairpod{
+  width:42%;
+  height:67%;
+}
+
+@media screen and (max-width:640){
+  .ensemble {
+    width: 90%;
+  }
+   .bas {
+    width: 90%;
+   }
+   .pub {
+    width: 90%;
+   }
+}
+
